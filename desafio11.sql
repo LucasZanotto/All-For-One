@@ -1,1 +1,1 @@
-SELECT notes FROM northwind.purchase_orders WHERE notes IS NOT NULL AND LENGTH(notes) >= 30 AND LENGTH(notes) <= 39;
+SELECT notes FROM northwind.purchase_orders WHERE notes LIKE '%3_';
